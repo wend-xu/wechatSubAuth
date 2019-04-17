@@ -6,7 +6,12 @@
 若token为空或验证不通过，返回一个临时二维码的ticket和token
 若有时间会继续完善，修改controller层让其可以作为一个独立的服务
 
-前端调用方式示例  
+### 依赖
+1. JDK 8+
+2. Mysql 8.X
+3. 启动：mvn spring-boot:run
+
+### 前端调用示例  
 首先从cookie中取出token  
 之后向后端发出请求  
 ```
