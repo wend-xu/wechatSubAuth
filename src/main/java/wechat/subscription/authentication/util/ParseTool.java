@@ -104,7 +104,7 @@ public class ParseTool {
 
     public static String returnTextMsg(String openId,String subscriptionId,String content){
         return "<xml>" +
-                "  <ToUserName>+"+openId+"+</ToUserName>" +
+                "  <ToUserName>"+openId+"</ToUserName>" +
                 "  <FromUserName>"+subscriptionId+"</FromUserName>" +
                 "  <CreateTime>"+new Date().getTime()+"</CreateTime>" +
                 "  <MsgType>text</MsgType>" +
